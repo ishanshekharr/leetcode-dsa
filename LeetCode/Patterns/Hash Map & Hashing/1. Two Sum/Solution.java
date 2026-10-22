@@ -6,7 +6,7 @@ class Solution {
                 if(nums[i]+nums[j]==target) {
                     fin[0]=i;
                     fin[1]=j;
-                    break;
+                    return fin;
                 }
             }
         }
